@@ -20,7 +20,7 @@ function str(word){
     }
     return count;
 }
-console.log(str('hellowow'));
+console.log(str('hello'));
 
 console.log("___________________")
 
@@ -107,4 +107,13 @@ console.log("___________________")
 
 
 //10. Create a function that takes in a number as an argument and returns the result of finding the factorial of that number.
+
+function fib(n){
+    if (n <= 2){
+            return 1;
+    }
+    fib(n-1) + fib(n-2);
+}
+console.log(fib(10));
+
 
